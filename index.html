@@ -11,17 +11,24 @@
     </head>
     <body>
       <header>
-        <ul id="banner">
-          <li class="">Home</li>
-          <li class="">Notifications</li>
-          <li class="">Messages</li>
-          <li class="">logo</li>
-          <li class="">
-            <input type="text" id="" name="" placeholder="Search Twitter">
+        <ul id="nav">
+          <li>
+            <div class="nav-item selected"><a hef="#">Home</a></div>
+            <div class="nav-item"><a hef="#">Notifications</a></div>
+            <div class="nav-item"><a hef="#">Messages</a></div>
           </li>
-          <li class="">Profile pic</li>
-          <li class="">
-            <button>Tweet</button>
+          <li>
+            <div class="logo"><a hef="#"><img id="bird-logo" src="img/bird.jpg" alt="Twitter logo"></a></div>
+          </li>
+          <li>
+            <div class="">
+              <input type="search" id="search" name="" placeholder="Search Twitter">
+              <button type="submit" id="search-icon">&#128269;</button>
+            </div>
+            <div><img id="profile-pic" src="img/nick.jpg" alt="profile-pic"></div>
+            <div class="">
+              <button type="button" id="tweet-button">Tweet</button>
+            </div>
           </li>
         </ul>
       </header>
