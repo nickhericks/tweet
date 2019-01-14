@@ -8,12 +8,24 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   font-family: sans-serif;
+  font-size: 16px;
+  color: grey;
+
 }
 
 header {
   padding: 0 10%;
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12)
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+h3 {
+  color: #000;
 }
 
 #nav {
@@ -87,6 +99,7 @@ header {
 main {
   display: flex;
   padding: 0 10%;
+  margin-top: 20px;
 
 }
 
@@ -96,4 +109,35 @@ main {
 
 .feed {
   width: 580px;
+  margin: 0 16px;
+}
+
+.box {
+  background-color: #fff;
+  margin: 0 0 16px 0;
+  padding: 15px;
+
+}
+
+.user-stats {
+display: flex;
+}
+
+
+
+.new-tweets {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+footer {
+  font-size: .85rem;
+  padding: 10px;
+}
+
+footer .advertise {
+  border-top: 1px grey solid;
+  padding-top: 20px;
 }
