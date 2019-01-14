@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<title>Critter</title>
+    	<title>Twitter (coding practice)</title>
       <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" type="text/css"> -->
     	<link rel="stylesheet" href="css/normalize.css">
     	<link rel="stylesheet" href="css/style.css">
@@ -39,9 +39,9 @@
             <h3 class="user-name">Nick Hericks</h3>
             <h4 class="user-handle">@nickhericks</h4>
             <div class="user-stats">
-              <div class="user-tweets">Tweets<br>79</div>
-              <div class="user-following">Following<br>115</div>
-              <div class="user-followers">Followers<br>199</div>
+              <div class="stat user-tweets">Tweets<br><span>79</span></div>
+              <div class="stat user-following">Following<br><span>115</span></div>
+              <div class="stat user-followers">Followers<br><span>199</span></div>
             </div>
           </div>
           <div class="box">
@@ -52,7 +52,11 @@
 
         <section class="feed">
           <div class="whats-happening">
-            <input type="text" placeholder="What's happening?">
+            <img id="profile-pic" src="img/nick.jpg" alt="profile-pic">
+            <div>
+              <textarea name="happening" id="happening" placeholder="What's happening?"></textarea>
+              <!-- <img id="image-icon" src="img/image.png" alt="image icon"> -->
+            </div>
           </div>
           <div class="new-tweets">
             See 8 new Tweets
@@ -70,7 +74,7 @@
           </div>
           <footer class="box">
             <p>
-              @2019 Twitter
+              &copy;2019 Twitter
               <a href="#">About</a>
               <a href="#">Help Center</a>
               <a href="#">Terms</a>

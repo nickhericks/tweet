@@ -81,6 +81,7 @@ h3 {
 
 #profile-pic {
   max-width: 30px;
+  max-height: 30px;
   border-radius: 100%;
 }
 
@@ -123,7 +124,17 @@ main {
 display: flex;
 }
 
+.stat {
+  padding-right: 20px;
+  line-height: 1.5rem;
+  font-size: .85rem;
+  font-weight: 600;
+}
 
+.stat span {
+  color: #aaa;
+  font-size: 1.125rem;
+}
 
 .new-tweets {
   text-align: center;
