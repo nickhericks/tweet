@@ -79,3 +79,21 @@ header {
   padding: 10px 20px;
   margin-left: 20px;
 }
+
+
+
+
+
+main {
+  display: flex;
+  padding: 0 10%;
+
+}
+
+.side {
+  width: 290px;
+}
+
+.feed {
+  width: 580px;
+}
