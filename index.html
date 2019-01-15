@@ -4,11 +4,10 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<title>Twitter (coding practice)</title>
-      <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" type="text/css"> -->
     	<link rel="stylesheet" href="css/normalize.css">
     	<link rel="stylesheet" href="css/style.css">
-
     </head>
+
     <body>
       <header>
         <ul id="nav">
@@ -18,14 +17,16 @@
             <div class="nav-item"><a hef="#">Messages</a></div>
           </li>
           <li>
-            <div class="logo"><a hef="#"><img id="bird-logo" src="img/bird.jpg" alt="Twitter logo"></a></div>
+            <div class="logo">
+              <a hef="#"><img id="bird-logo" src="img/bird.jpg" alt="Twitter logo"></a>
+            </div>
           </li>
           <li>
             <div class="">
               <input type="search" id="search" name="" placeholder="Search Twitter">
               <button type="submit" id="search-icon">&#128269;</button>
             </div>
-            <div><img id="profile-pic" src="img/nick.jpg" alt="profile-pic"></div>
+            <div><img id="profile-pic" src="img/nick.jpg" alt="profile pic"></div>
             <div class="">
               <button type="button" id="tweet-button">Tweet</button>
             </div>
@@ -35,9 +36,19 @@
 
       <main>
         <section class="side left">
-          <div class="box">
-            <h3 class="user-name">Nick Hericks</h3>
-            <h4 class="user-handle">@nickhericks</h4>
+          <div class="banner">
+            <div class="user-banner">
+              <img class="banner-small" src="img/banner-small.jpg" alt="banner image">
+            </div>
+          </div>
+          <div class="box user">
+            <div class="user-profile">
+              <img id="profile-pic" src="img/nick.jpg" alt="profile pic">
+              <div>
+                <h3 class="user-name">Nick Hericks</h3>
+                <h4 class="user-handle">@nickhericks</h4>
+              </div>
+            </div>
             <div class="user-stats">
               <div class="stat user-tweets">Tweets<br><span>79</span></div>
               <div class="stat user-following">Following<br><span>115</span></div>
@@ -52,7 +63,7 @@
 
         <section class="feed">
           <div class="whats-happening">
-            <img id="profile-pic" src="img/nick.jpg" alt="profile-pic">
+            <img id="profile-pic" src="img/nick.jpg" alt="profile pic">
             <div>
               <textarea name="happening" id="happening" placeholder="What's happening?"></textarea>
               <!-- <img id="image-icon" src="img/image.png" alt="image icon"> -->

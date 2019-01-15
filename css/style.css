@@ -1,3 +1,6 @@
+/**********************************
+General styling
+**********************************/
 * {
   /* border: solid red 1px; */
 }
@@ -28,6 +31,9 @@ h3 {
   color: #000;
 }
 
+/**********************************
+Navigation
+**********************************/
 #nav {
   display: flex;
   justify-content: space-between;
@@ -83,6 +89,7 @@ h3 {
   max-width: 30px;
   max-height: 30px;
   border-radius: 100%;
+  border: 1px #bbb solid;
 }
 
 #tweet-button {
@@ -96,7 +103,9 @@ h3 {
 
 
 
-
+/**********************************
+Main
+**********************************/
 main {
   display: flex;
   padding: 0 10%;
@@ -117,8 +126,45 @@ main {
   background-color: #fff;
   margin: 0 0 16px 0;
   padding: 15px;
-
 }
+/**********************************
+User summary
+**********************************/
+.user-banner {
+  height: 95px;
+  overflow-y: hidden;
+}
+.user-banner .banner-small {
+  width: 100%;
+}
+
+.user-profile {
+  display: flex;
+  /* position: relative; */
+  margin-top: -20px;
+}
+
+.user-profile div {
+  margin-left: 10px;
+}
+
+  .user-profile #profile-pic {
+    width: auto;
+    max-width: 70px;
+    height: auto;
+    max-height: 70px;
+    border: solid 2px #fff;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .user-profile h3 {
+    margin-bottom: 5px;
+  }
+
+  .user-profile h4 {
+    margin: 0 0 15px 0;
+  }
 
 .user-stats {
 display: flex;
@@ -136,6 +182,14 @@ display: flex;
   font-size: 1.125rem;
 }
 
+
+/**********************************
+Feed
+**********************************/
+.whats-happening #profile-pic {
+  border: none;
+}
+
 .new-tweets {
   text-align: center;
   padding: 10px;
@@ -143,6 +197,11 @@ display: flex;
   border-bottom: 1px solid grey;
 }
 
+
+
+/**********************************
+Footer
+**********************************/
 footer {
   font-size: .85rem;
   padding: 10px;
