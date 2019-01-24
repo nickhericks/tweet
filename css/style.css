@@ -182,6 +182,12 @@ display: flex;
   font-size: 1.125rem;
 }
 
+.trends-change {
+  font-size: .75rem;
+  font-weight: 400;
+  color: grey;
+}
+
 
 /**********************************
 Feed
