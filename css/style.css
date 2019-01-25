@@ -224,8 +224,10 @@ Feed
 .new-tweets {
   text-align: center;
   padding: 10px;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-top: 1px solid #e6ecf0;
+  border-bottom: 1px solid #e6ecf0;
+  background-color: #f5f8fa;
+
 }
 
 
