@@ -192,9 +192,35 @@ display: flex;
 /**********************************
 Feed
 **********************************/
+
+.whats-happening {
+  overflow: hidden;
+  display: flex;
+  background-color: #f6f7f8;
+  padding: 1rem;
+  align-items: stretch;
+}
+
 .whats-happening #profile-pic {
   border: none;
+  padding: 0 .5rem .5rem 1rem;
 }
+
+.whats-happening div {
+  /* flex-grow: 4; */
+
+}
+
+.whats-happening #happening {
+  border-radius: 7px;
+  border: solid 2px #e4e8eb;
+  color: #e4e8eb;
+  padding: 7px;
+  resize: none;
+  width: 450px;
+  height: 80px;
+}
+
 
 .new-tweets {
   text-align: center;
