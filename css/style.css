@@ -208,7 +208,6 @@ Feed
 
 .whats-happening div {
   /* flex-grow: 4; */
-
 }
 
 .whats-happening #happening {
@@ -221,9 +220,21 @@ Feed
   height: 38px;
 }
 
+.happening-buttons {
+  margin-top: .5rem;
+}
+
+.happening-buttons #happening-tweet  {
+  background-color: #e4e8e8;
+  color: #f9f9fa;
+  border-radius: 30px;
+  border: 0;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+
 .new-tweets {
   text-align: center;
-  padding: 10px;
   border-top: 1px solid #e6ecf0;
   border-bottom: 1px solid #e6ecf0;
   background-color: #f5f8fa;
