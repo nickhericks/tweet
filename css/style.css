@@ -233,6 +233,38 @@ Feed
   margin-left: 20px;
 }
 
+/**********************************
+Happening Toolbar
+**********************************/
+.happening-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toolbar-left {
+  display: flex;
+}
+
+.toolbar-right {
+  display: flex;
+}
+
+.icon-box {
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  margin-top: 5px;
+}
+
+.toolbox-icon {
+  width: 30px;
+}
+
+.icon-box:hover {
+  border: 1px solid #c2cad1;
+  border-radius: 5px;
+}
+
 .new-tweets {
   text-align: center;
   color: #c2cad1;
