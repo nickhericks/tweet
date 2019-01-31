@@ -206,18 +206,17 @@ Feed
   padding: 0 .5rem .5rem 1rem;
 }
 
-.whats-happening div {
-  /* flex-grow: 4; */
-}
-
 .whats-happening #happening {
   border-radius: 7px;
   border: solid 2px #e4e8eb;
-  color: #e4e8eb;
+  color: #b3bec6;
+  font-size: .85rem;
+  font-weight: 100;
   padding: 7px;
   resize: none;
   width: 450px;
   height: 38px;
+  outline: none;
 }
 
 .happening-buttons {
@@ -236,9 +235,11 @@ Feed
 /**********************************
 Happening Toolbar
 **********************************/
-.happening-toolbar {
+#happening-toolbar {
   display: flex;
   justify-content: space-between;
+  display: none;
+  flex-flow: row nowrap;
 }
 
 .toolbar-left {
