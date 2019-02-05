@@ -12,6 +12,6 @@ body.addEventListener('click', (event) => {
   }
   else {
     happening.style.height = '80px';
-    happeningToolbar.style.display = "block";
+    happeningToolbar.style.display = "flex";
   }
 });

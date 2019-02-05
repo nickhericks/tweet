@@ -236,18 +236,23 @@ Feed
 Happening Toolbar
 **********************************/
 #happening-toolbar {
-  display: flex;
-  justify-content: space-between;
   display: none;
+  justify-content: space-between;
+  align-items: center;
   flex-flow: row nowrap;
 }
 
 .toolbar-left {
   display: flex;
+  align-items: center;
+  max-width: 40%;
 }
 
 .toolbar-right {
   display: flex;
+  align-items: center;
+  max-width: 40%;
+
 }
 
 .icon-box {
@@ -255,6 +260,10 @@ Happening Toolbar
   height: 30px;
   padding: 7px;
   margin-top: 5px;
+}
+
+#plus-icon {
+  width: 30px;
 }
 
 .toolbox-icon {
