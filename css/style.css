@@ -275,6 +275,14 @@ Happening Toolbar
   border-radius: 5px;
 }
 
+.tooltip {
+  position: absolute;
+  margin-bottom: 10px;
+  color: red;
+}
+
+
+
 .new-tweets {
   text-align: center;
   color: #c2cad1;
