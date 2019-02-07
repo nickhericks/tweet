@@ -246,6 +246,7 @@ Happening Toolbar
   display: flex;
   align-items: center;
   max-width: 40%;
+  position: relative;
 }
 
 .toolbar-right {
@@ -253,6 +254,31 @@ Happening Toolbar
   align-items: center;
   max-width: 40%;
 
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 40px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.tooltip:before {
+  content: "";
+  position: absolute;
+  top: 90%;
+  left: 15px;
+  height: 10px;
+  width: 10px;
+  background: black;
+  box-sizing:border-box;
+  transform: rotate(45deg) translate(-50%);
+  border-bottom: inherit;
+  border-right: inherit;
+  box-shadow: inherit;
 }
 
 .icon-box {
@@ -275,11 +301,6 @@ Happening Toolbar
   border-radius: 5px;
 }
 
-.tooltip {
-  position: absolute;
-  margin-bottom: 10px;
-  color: red;
-}
 
 
 

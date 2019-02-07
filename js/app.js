@@ -21,6 +21,16 @@ toolboxIcons.forEach( function (icon) {
   span.classList.add('tooltip');
 
   span.textContent = 'hello';
-  // span.style.zIndex = '1000';
   icon.parentNode.parentNode.prepend(span);
+  span.style.display = 'none';
+
+
+  span.parentNode.addEventListener('mouseenter', (event) => {
+    span.style.display = 'block';
+  });
+
+  span.parentNode.addEventListener('mouseleave', (event) => {
+    span.style.display = 'none';
+  });
+
 });
