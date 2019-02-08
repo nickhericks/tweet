@@ -31,6 +31,7 @@ h3 {
   color: #000;
 }
 
+
 /**********************************
 Navigation
 **********************************/
@@ -182,7 +183,7 @@ display: flex;
   font-size: 1.125rem;
 }
 
-.trends-change {
+.header-details {
   font-size: .75rem;
   font-weight: 400;
   color: grey;
@@ -318,6 +319,68 @@ Happening Toolbar
   background-color: #f5f8fa;
   padding: 15px 0;
 }
+
+
+
+/**********************************
+Follow
+**********************************/
+
+.follow-item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+.follow-item-left {
+  display: flex;
+  flex-flow: row nowrap;
+  /* align-items: flex-start; */
+  align-content: flex-start;
+}
+
+.follow-details {
+  padding-left: 20px;
+}
+
+.follow-image img {
+  width: 48px;
+  border-radius: 100%;
+}
+
+.follow-name p {
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.follow-name p span {
+  font-weight: normal;
+  color: #a0abb4;
+}
+
+.follow-button button {
+  background-color: white;
+  color: #abb8c2;
+  border-radius: 30px;
+  padding: 5px 27px;
+  font-weight: bold;
+  font-size: .9rem;
+  /* margin-left: 20px; */
+}
+
+.follow-close a {
+  color: #ccd6dd;
+}
+
+
+
+
+
+
 
 
 
