@@ -32,6 +32,7 @@ h3 {
 }
 
 
+
 /**********************************
 Navigation
 **********************************/
@@ -56,7 +57,6 @@ Navigation
 .nav-item {
   padding: 16px 10px;
   margin-right: 20px;
-
 }
 
 .nav-item:hover {
@@ -103,7 +103,6 @@ Navigation
 
 
 
-
 /**********************************
 Main
 **********************************/
@@ -128,6 +127,9 @@ main {
   margin: 0 0 16px 0;
   padding: 15px;
 }
+
+
+
 /**********************************
 User summary
 **********************************/
@@ -190,10 +192,10 @@ display: flex;
 }
 
 
+
 /**********************************
 Trends
 **********************************/
-
 .trend-list {
 
 }
@@ -213,10 +215,11 @@ Trends
   font-size: .8rem;
 }
 
+
+
 /**********************************
 Feed
 **********************************/
-
 .whats-happening {
   overflow: hidden;
   display: flex;
@@ -255,6 +258,8 @@ Feed
   padding: 10px 20px;
   margin-left: 20px;
 }
+
+
 
 /**********************************
 Happening Toolbar
@@ -329,9 +334,6 @@ Happening Toolbar
   border-radius: 5px;
 }
 
-
-
-
 .new-tweets {
   text-align: center;
   color: #c2cad1;
@@ -348,7 +350,6 @@ Happening Toolbar
 /**********************************
 Follow
 **********************************/
-
 .follow-item {
   display: flex;
   flex-flow: row nowrap;
@@ -398,12 +399,6 @@ Follow
 .follow-close a {
   color: #ccd6dd;
 }
-
-
-
-
-
-
 
 
 
