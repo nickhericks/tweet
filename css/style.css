@@ -191,6 +191,29 @@ display: flex;
 
 
 /**********************************
+Trends
+**********************************/
+
+.trend-list {
+
+}
+
+.trend-item {
+
+}
+
+.trend-name {
+  color: #abb8c2;
+  font-weight: bold;
+  margin: 0;
+}
+
+.trend-count {
+  margin: 0;
+  font-size: .8rem;
+}
+
+/**********************************
 Feed
 **********************************/
 
