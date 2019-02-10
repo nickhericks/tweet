@@ -147,9 +147,9 @@ User summary
   margin-top: -20px;
 }
 
-.user-profile div {
-  margin-left: 10px;
-}
+  .user-profile div {
+    margin-left: 10px;
+  }
 
   .user-profile #profile-pic {
     width: auto;
@@ -167,6 +167,11 @@ User summary
 
   .user-profile h4 {
     margin: 0 0 15px 0;
+    font-weight: normal;
+  }
+
+  .user-profile h4 span:hover {
+    text-decoration: underline;
   }
 
 .user-stats {
