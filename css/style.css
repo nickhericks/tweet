@@ -414,8 +414,13 @@ Follow
 Footer
 **********************************/
 footer {
-  font-size: .85rem;
+  font-size: .75rem;
+  font-weight: lighter;
   padding: 10px;
+}
+
+footer a {
+  margin-right: 10px;
 }
 
 footer .advertise {
