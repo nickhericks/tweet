@@ -170,7 +170,7 @@ User summary
     font-weight: normal;
   }
 
-  .user-profile h4 span:hover {
+  .underlineOnHover:hover {
     text-decoration: underline;
   }
 
