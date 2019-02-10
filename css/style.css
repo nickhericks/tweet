@@ -31,6 +31,13 @@ h3 {
   color: #000;
 }
 
+.underlineOnHover:hover {
+  text-decoration: underline;
+}
+
+.lightFontOnHover:hover {
+  color: #b1bdc7;
+}
 
 
 /**********************************
@@ -168,10 +175,6 @@ User summary
   .user-profile h4 {
     margin: 0 0 15px 0;
     font-weight: normal;
-  }
-
-  .underlineOnHover:hover {
-    text-decoration: underline;
   }
 
 .user-stats {
@@ -379,16 +382,16 @@ Follow
   border-radius: 100%;
 }
 
-.follow-name p {
+.user-to-follow {
   font-weight: bold;
   color: #000;
   margin: 0;
   padding-bottom: 5px;
 }
 
-.follow-name p span {
+.username-to-follow {
   font-weight: normal;
-  color: #a0abb4;
+  color: #657786;
 }
 
 .follow-button button {
