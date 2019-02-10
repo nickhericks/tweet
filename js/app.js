@@ -14,11 +14,11 @@ const tooltipMessages = [
 // Expands tweet text area when clicked
 body.addEventListener('click', (event) => {
   if(event.target !== happening) {
-    happening.style.height = '38px';
+    happening.style.height = '22px';
     happeningToolbar.style.display = "none";
   }
   else {
-    happening.style.height = '80px';
+    happening.style.height = '66px';
     happeningToolbar.style.display = "flex";
   }
 });
