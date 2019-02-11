@@ -39,7 +39,6 @@ h3 {
   color: #b1bdc7;
 }
 
-
 /**********************************
 Navigation
 **********************************/
@@ -253,6 +252,13 @@ Feed
   height: 22px;
   outline: none;
 }
+
+.whats-happening #happening-img-icon {
+  color: red;
+  /* position: absolute; */
+}
+
+
 
 .happening-buttons {
   margin-top: .5rem;
