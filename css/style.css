@@ -251,12 +251,9 @@ Feed
   width: 450px;
   height: 22px;
   outline: none;
+  background: white url(img/img.png) right no-repeat;
 }
 
-.whats-happening #happening-img-icon {
-  color: red;
-  /* position: absolute; */
-}
 
 
 
